@@ -1,0 +1,15 @@
+body {
+    font-family: 'Inconsolata', monospace;
+    background-color: coral;  
+    display: flex;
+    justify-content: center;
+}
+#title-div{
+    display: flex;
+    height: 100px;
+    align-content: center;
+}
+
+#title{
+  color: white;
+}
