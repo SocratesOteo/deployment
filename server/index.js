@@ -10,7 +10,7 @@ app.get('/', function(req,res){
     res.sendFile(path.join(__dirname,'../home.html'))
 })
 
-app.get('/css', (req, res) => {
+app.get('/styles', (req, res) => {
     res.sendFile(path.join(__dirname, '../home.css'))
   })
 
